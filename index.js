@@ -2,7 +2,7 @@ var express = require("express");
 var app = express();
 
 app.get("/", (req, res, next) => {
-    res.json({ message: "hello world" })
+    res.json({ message: "hello world wc" })
 })
 
 app.get("/availability", (req, res, next) => {
